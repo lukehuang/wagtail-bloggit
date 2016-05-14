@@ -1,6 +1,11 @@
 # Python junk
 *.pyc
 
+# Packaging junk
+/*.egg-info
+/dist
+/build
+
 # IDE junk
 /.idea
 
