@@ -1,0 +1,8 @@
+# Python junk
+*.pyc
+
+# IDE junk
+/.idea
+
+# SQlite database
+/demosite/db.sqlite3
