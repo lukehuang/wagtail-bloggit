@@ -3,6 +3,7 @@
 
 # Packaging junk
 /*.egg-info
+/*.eggs
 /dist
 /build
 

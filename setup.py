@@ -29,5 +29,7 @@ setup(
     author='Pieter De Decker',
     packages=find_packages(),
     zip_safe=False,
+    setup_requires=['pytest-runner'],
     install_requires=parse_requirements_file('requirements.txt'),
+    tests_require=parse_requirements_file('requirements_test.txt'),
 )
