@@ -12,3 +12,12 @@
 
 # SQlite database
 /demosite/db.sqlite3
+
+# Media files
+/demosite/media
+
+# Mac junk
+.DS_Store
+
+# Tests junk
+/.cache
