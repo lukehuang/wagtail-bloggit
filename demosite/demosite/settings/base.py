@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 
     # wagtail-blogging additions
     'wagtail_blogging',
+    'wagtail_blogging.importers',
 ]
 
 MIDDLEWARE_CLASSES = [

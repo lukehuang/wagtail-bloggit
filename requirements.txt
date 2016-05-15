@@ -1,1 +1,4 @@
 wagtail>=1.4.4
+
+# Parses RSS feeds. Used to import WordPress data.
+feedparser>=5.2.1
