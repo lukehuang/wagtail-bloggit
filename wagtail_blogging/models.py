@@ -3,7 +3,6 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.utils import timezone
-from django.utils.text import slugify
 from django.utils.translation import ugettext_lazy
 from wagtail.wagtailadmin.edit_handlers import FieldPanel, StreamFieldPanel
 from wagtail.wagtailcore import blocks
@@ -18,8 +17,8 @@ class BlogPostPage(Page):
     """Structure for blog articles."""
     post_date = models.DateTimeField()
     post_body = StreamField([
-        ('text', blocks.RichTextBlock()),
-        ('image', ImageChooserBlock()),
+        ('text', blocks.RichTextBlock(icon='edit')),
+        ('image', ImageChooserBlock(icon='image')),
     ])
     primary_visual = models.ForeignKey(Image, help_text=ugettext_lazy('Can be shown on overview pages or in feeds.'),
                                        null=True, blank=True, on_delete=models.SET_NULL)
