@@ -5,7 +5,7 @@ from django.test import TestCase
 from django.utils import timezone
 from freezegun import freeze_time
 
-from wagtail_blogging.models import BlogPostPage
+from wagtail_bloggit.models import BlogPostPage
 
 
 class BlogPostPageTest(TestCase):

@@ -8,7 +8,7 @@ from datetime import datetime
 from django.utils import timezone
 from django.utils.text import slugify
 
-from wagtail_blogging.models import BlogPostPage
+from wagtail_bloggit.models import BlogPostPage
 
 
 class WordPressImporter(object):

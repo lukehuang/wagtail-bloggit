@@ -50,8 +50,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # wagtail-blogging additions
-    'wagtail_blogging',
-    'wagtail_blogging.importers',
+    'wagtail_bloggit',
+    'wagtail_bloggit.importers',
 ]
 
 MIDDLEWARE_CLASSES = [

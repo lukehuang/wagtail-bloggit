@@ -1,4 +1,4 @@
-wagtail-blogging
+wagtail-bloggit
 ================
 
 [Wagtail](https://www.wagtail.io/) is a convenient way to build CMS-based sites on Django, but it lacks built-in support for WordPress-like blogging. This library aims to address that.

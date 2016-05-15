@@ -8,8 +8,8 @@ from django.core.management import call_command
 from django.test import TestCase
 from wagtail.wagtailcore.models import Page
 
-from wagtail_blogging.importers.wordpress import WordPressImporter
-from wagtail_blogging.models import BlogPostPage
+from wagtail_bloggit.importers.wordpress import WordPressImporter
+from wagtail_bloggit.models import BlogPostPage
 
 
 def compose_datafile_path(filename):

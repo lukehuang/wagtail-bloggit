@@ -23,7 +23,7 @@ def parse_requirements_file(filename):
     return requires
 
 setup(
-    name='wagtail-blogging',
+    name='wagtail-bloggit',
     version='0.1',
     description='Blogging extensions for Wagtail',
     author='Pieter De Decker',

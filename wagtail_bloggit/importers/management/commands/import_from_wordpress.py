@@ -7,7 +7,7 @@ import sys
 from django.core.management import BaseCommand
 from wagtail.wagtailcore.models import Page
 
-from wagtail_blogging.importers.wordpress import WordPressImporter
+from wagtail_bloggit.importers.wordpress import WordPressImporter
 
 logger = logging.getLogger(__name__)
 
