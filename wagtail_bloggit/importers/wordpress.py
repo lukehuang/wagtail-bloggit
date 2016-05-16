@@ -53,7 +53,7 @@ class WordPressImporter(object):
                 )
                 self._total_imported += 1
                 yield post
-            except Exception, e:
+            except Exception as e:
                 self._exceptions.append(e)
 
     def total_imported(self):
